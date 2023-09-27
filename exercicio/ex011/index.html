@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagem dinamica</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplemente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width:700px)" srcset="imagens/fotop.jpg" type="image/jpg">
+        <source media="(max-width:1050px)" srcset="imagens/fotom.jpg" type="image/jpg">
+        <img src="imagens/fotog.jpg" alt="imagem frexivel">
+    </picture>
+    <h1>reproduzido audio</h1>
+    <p>vamos aprender a reproduzir audios em html5</p>
+    <audio src="midia/yt5s.com - Kygo - Firestone ft. Conrad Sewell (Official Video) (128 kbps).mp3"controls autoplay></audio>
+    <audio preload="metadata"autoplaycontrols loop>
+        <source src="midia/yt5s.com - Kygo - Firestone ft. Conrad Sewell (Official Video) (128 kbps).mp3" type="audio/mpeg">
+        <source src="yt5s.com - Kygo - Firestone ft. Conrad Sewell (Official Video) (128 kbps).ogg" type="audio/ogg"> 
+        <source src="midia/yt5s.com - Kygo - Firestone ft. Conrad Sewell (Official Video) (128 kbps).wav" type="audio/wav">
+        <p>infelismente seu navegador não consegue reproduzir audio <a href="midia/yt5s.com - Kygo - Firestone ft. Conrad Sewell (Official Video) (128 kbps).mp3"> clique aqui para baixar o arquivo mp3</a></p>
+    </audio>
+
+</html> 

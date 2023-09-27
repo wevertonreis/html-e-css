@@ -1,0 +1,18 @@
+body {
+    background-color: coral;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(20, 86, 86);
+    background-color: darkkhaki;
+}
+
+h2 {
+    color: rgb(32, 145, 145);
+}
+
+p {
+    text-align: justify;
+}
